@@ -1,0 +1,517 @@
+                                                                                                                                            @font-face {
+                                                                                                                                                font-family: ancient;
+                                                                                                                                                src: url(../fonts/Ancient\ Medium.ttf);
+                                                                                                                                                font-family: oldLondon;
+                                                                                                                                                src: url(../fonts/OldLondon.ttf);
+                                                                                                                                                font-family: Abril;
+                                                                                                                                                src: url(../fonts/AbrilFatface-Regular.ttf);
+                                                                                                                                                font-family: Quentin;
+                                                                                                                                                src: url(../fonts/Quentin.otf);
+                                                                                                                                                font-family: Neutralface;
+                                                                                                                                                src: url(../fonts/NeutralFace.otf);
+                                                                                                                                                font-family: NeutralfaceBold;
+                                                                                                                                                src: url(../fonts/NeutralFace-Bold.otf);
+                                                                                                                                                font-family: Thunder;
+                                                                                                                                                src: url(../fonts/Thunder-BlackLC.otf);
+                                                                                                                                                font-family: Maghfira;
+                                                                                                                                                src: url(../fonts/Maghfirea.otf);
+                                                                                                                                                font-family: CoffekanRegular;
+                                                                                                                                                src: url(../fonts/CoffekanRegular.ttf);
+                                                                                                                                                font-family: Luthon;
+                                                                                                                                                src: url(../fonts/Luthon\ Southard\ Serif.otf);
+                                                                                                                                                font-family: DXRigraf;
+                                                                                                                                                src: url(../fonts/DXRigraf-SemiBoldItalic.otf);
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            body {
+                                                                                                                                                font-family: Playfair Display;
+                                                                                                                                                background-color: black;
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            a {
+                                                                                                                                                color: #00fded !important;
+                                                                                                                                                transition: all 0.2s linear;
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            a:hover {
+                                                                                                                                                color: white !important;
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            a:active {
+                                                                                                                                                color: #07537F !important;
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            .navibar {
+                                                                                                                                                background-color: black !important;
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            .dropdown {
+                                                                                                                                                background-color: #000000b7 !important;
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            .langsuages {}
+                                                                                                                                            
+                                                                                                                                            .lang .langs {
+                                                                                                                                                color: rgb(13, 170, 160) !important;
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            .lang:hover {
+                                                                                                                                                color: rgb(1, 2, 2) !important;
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            @media all and ( max-width: 575px) {
+                                                                                                                                                .first-row {
+                                                                                                                                                    height: 650px;
+                                                                                                                                                    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../images/IMG_7174.JPG');
+                                                                                                                                                    /* background-image: url(../images/IMG_7174.JPG); */
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 50%;
+                                                                                                                                                    /* filter: brightness(70%); */
+                                                                                                                                                }
+                                                                                                                                                .hello {
+                                                                                                                                                    padding-top: 7rem;
+                                                                                                                                                    font-size: 80px;
+                                                                                                                                                    font-family: DXRigraf;
+                                                                                                                                                    font-weight: bolder;
+                                                                                                                                                    text-shadow: 5px 5px 7px #1e2222;
+                                                                                                                                                    filter: brightness(100%) !important;
+                                                                                                                                                    text-transform: uppercase;
+                                                                                                                                                    color: #131313d8;
+                                                                                                                                                    /*letter-spacing: 10px; */
+                                                                                                                                                }
+                                                                                                                                                .p-scroll {
+                                                                                                                                                    font-family: Dxrigraf;
+                                                                                                                                                    margin-top: -25px;
+                                                                                                                                                    transition: all 0.2s linear;
+                                                                                                                                                    text-decoration: none;
+                                                                                                                                                    color: black !important;
+                                                                                                                                                }
+                                                                                                                                                .p-scroll:hover {
+                                                                                                                                                    color: #00fded !important;
+                                                                                                                                                }
+                                                                                                                                                .AnbName {
+                                                                                                                                                    font-family: Abril;
+                                                                                                                                                    font-weight: bold;
+                                                                                                                                                    text-shadow: 5px 5px 7px #607274;
+                                                                                                                                                    font-size: 20px;
+                                                                                                                                                    padding-left: 200px;
+                                                                                                                                                    padding-top: 10px;
+                                                                                                                                                }
+                                                                                                                                                .row2 {
+                                                                                                                                                    margin-top: 10px;
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    height: 350px;
+                                                                                                                                                    background-image: url(..//images/fifth.jpg);
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 100%;
+                                                                                                                                                }
+                                                                                                                                                .card {
+                                                                                                                                                    /* margin-top: 20px; */
+                                                                                                                                                    width: 85%;
+                                                                                                                                                    /* height: 40%; */
+                                                                                                                                                    /* From https://css.glass */
+                                                                                                                                                    background: rgba(255, 255, 255, 0.21);
+                                                                                                                                                    border-radius: 16px;
+                                                                                                                                                    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                                                                                                                                                    backdrop-filter: blur(20px);
+                                                                                                                                                    -webkit-backdrop-filter: blur(20px);
+                                                                                                                                                    border: 1px solid rgba(255, 255, 255, 0.15);
+                                                                                                                                                    display: flex;
+                                                                                                                                                    /* justify-content: center; */
+                                                                                                                                                    align-items: center;
+                                                                                                                                                    text-align: justify;
+                                                                                                                                                    transition: all 0.1s linear;
+                                                                                                                                                }
+                                                                                                                                                .h2text {
+                                                                                                                                                    font-size: 30px;
+                                                                                                                                                }
+                                                                                                                                                .myName {
+                                                                                                                                                    font-family: Quentin !important;
+                                                                                                                                                    font-size: 20px;
+                                                                                                                                                }
+                                                                                                                                                .row3 {
+                                                                                                                                                    /* font-family: DXRigraf; */
+                                                                                                                                                    padding-bottom: 20px;
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    background-image: url(..//images/firstGradient.jpg);
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 100%;
+                                                                                                                                                }
+                                                                                                                                                .research {
+                                                                                                                                                    font-size: 37px;
+                                                                                                                                                    color: #3f3737d8;
+                                                                                                                                                }
+                                                                                                                                                .row4 {
+                                                                                                                                                    /* font-family: DXRigraf; */
+                                                                                                                                                    height: 400px;
+                                                                                                                                                    padding-bottom: 20px;
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    background-image: url(..//images/thirdGradient.jpg);
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 100%;
+                                                                                                                                                }
+                                                                                                                                                .skills {
+                                                                                                                                                    font-size: 45px;
+                                                                                                                                                    color: rgba(255, 255, 255, 0.7);
+                                                                                                                                                }
+                                                                                                                                                .proBar {
+                                                                                                                                                    background-color: #215250;
+                                                                                                                                                }
+                                                                                                                                                .row5 {
+                                                                                                                                                    /* font-family: DXRigraf; */
+                                                                                                                                                    /* height: 400px; */
+                                                                                                                                                    padding-bottom: 20px;
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    background-image: url(..//images/secGradient.jpg);
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 100%;
+                                                                                                                                                }
+                                                                                                                                                .blog {
+                                                                                                                                                    color: #1f2020d8;
+                                                                                                                                                    font-size: 45px;
+                                                                                                                                                }
+                                                                                                                                                .row6 {
+                                                                                                                                                    /* font-family: DXRigraf; */
+                                                                                                                                                    /* height: 400px; */
+                                                                                                                                                    padding-bottom: 20px;
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    background-image: url(..//images/IMG_2621.jpg);
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 100%;
+                                                                                                                                                }
+                                                                                                                                                .photos {
+                                                                                                                                                    border-radius: 16px;
+                                                                                                                                                    border: 1px solid rgba(255, 255, 255, 0.15);
+                                                                                                                                                }
+                                                                                                                                                .contImg {
+                                                                                                                                                    width: 50px;
+                                                                                                                                                    height: 50%;
+                                                                                                                                                    border-radius: 50%;
+                                                                                                                                                }
+                                                                                                                                                .spanCont {
+                                                                                                                                                    font-size: 18px;
+                                                                                                                                                    font-family: Neutralface;
+                                                                                                                                                    font-weight: bold;
+                                                                                                                                                    transition: all 0.2s linear;
+                                                                                                                                                }
+                                                                                                                                                .hovering {
+                                                                                                                                                    transition: all 0.2s linear;
+                                                                                                                                                }
+                                                                                                                                                .hovering:hover .spanCont {
+                                                                                                                                                    color: #09b9ae;
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            @media all and (min-width: 576px) and (max-width: 991px) {
+                                                                                                                                                .first-row {
+                                                                                                                                                    height: 650px;
+                                                                                                                                                    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../images/IMG_7174.JPG');
+                                                                                                                                                    /* background-image: url(../images/IMG_7174.JPG); */
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 50%;
+                                                                                                                                                    /* filter: brightness(70%); */
+                                                                                                                                                }
+                                                                                                                                                .hello {
+                                                                                                                                                    padding-top: 7rem;
+                                                                                                                                                    font-size: 80px;
+                                                                                                                                                    font-family: DXRigraf;
+                                                                                                                                                    font-weight: bolder;
+                                                                                                                                                    text-shadow: 5px 5px 7px #1e2222;
+                                                                                                                                                    filter: brightness(100%) !important;
+                                                                                                                                                    text-transform: uppercase;
+                                                                                                                                                    color: #131313d8;
+                                                                                                                                                    /*letter-spacing: 10px; */
+                                                                                                                                                }
+                                                                                                                                                .p-scroll {
+                                                                                                                                                    font-family: Dxrigraf;
+                                                                                                                                                    margin-top: -25px;
+                                                                                                                                                    transition: all 0.2s linear;
+                                                                                                                                                    text-decoration: none;
+                                                                                                                                                    color: black !important;
+                                                                                                                                                }
+                                                                                                                                                .p-scroll:hover {
+                                                                                                                                                    color: #00fded !important;
+                                                                                                                                                }
+                                                                                                                                                .AnbName {
+                                                                                                                                                    font-family: Abril;
+                                                                                                                                                    font-weight: bold;
+                                                                                                                                                    text-shadow: 5px 5px 7px #607274;
+                                                                                                                                                    font-size: 20px;
+                                                                                                                                                    padding-left: 200px;
+                                                                                                                                                    padding-top: 10px;
+                                                                                                                                                }
+                                                                                                                                                .row2 {
+                                                                                                                                                    margin-top: 10px;
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    height: 350px;
+                                                                                                                                                    background-image: url(..//images/fifth.jpg);
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 100%;
+                                                                                                                                                }
+                                                                                                                                                .card {
+                                                                                                                                                    /* margin-top: 20px; */
+                                                                                                                                                    width: 85%;
+                                                                                                                                                    /* height: 40%; */
+                                                                                                                                                    /* From https://css.glass */
+                                                                                                                                                    background: rgba(255, 255, 255, 0.21);
+                                                                                                                                                    border-radius: 16px;
+                                                                                                                                                    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                                                                                                                                                    backdrop-filter: blur(20px);
+                                                                                                                                                    -webkit-backdrop-filter: blur(20px);
+                                                                                                                                                    border: 1px solid rgba(255, 255, 255, 0.15);
+                                                                                                                                                    display: flex;
+                                                                                                                                                    /* justify-content: center; */
+                                                                                                                                                    align-items: center;
+                                                                                                                                                    text-align: justify;
+                                                                                                                                                    transition: all 0.1s linear;
+                                                                                                                                                }
+                                                                                                                                                .h2text {
+                                                                                                                                                    font-size: 30px;
+                                                                                                                                                }
+                                                                                                                                                .myName {
+                                                                                                                                                    font-family: Quentin !important;
+                                                                                                                                                    font-size: 20px;
+                                                                                                                                                }
+                                                                                                                                                .row3 {
+                                                                                                                                                    /* font-family: DXRigraf; */
+                                                                                                                                                    padding-bottom: 20px;
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    background-image: url(..//images/firstGradient.jpg);
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 100%;
+                                                                                                                                                }
+                                                                                                                                                .research {
+                                                                                                                                                    font-size: 37px;
+                                                                                                                                                    color: #3f3737d8;
+                                                                                                                                                }
+                                                                                                                                                .row4 {
+                                                                                                                                                    /* font-family: DXRigraf; */
+                                                                                                                                                    height: 400px;
+                                                                                                                                                    padding-bottom: 20px;
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    background-image: url(..//images/thirdGradient.jpg);
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 100%;
+                                                                                                                                                }
+                                                                                                                                                .skills {
+                                                                                                                                                    font-size: 45px;
+                                                                                                                                                    color: rgba(255, 255, 255, 0.7);
+                                                                                                                                                }
+                                                                                                                                                .proBar {
+                                                                                                                                                    background-color: #215250;
+                                                                                                                                                }
+                                                                                                                                                .row5 {
+                                                                                                                                                    /* font-family: DXRigraf; */
+                                                                                                                                                    /* height: 400px; */
+                                                                                                                                                    padding-bottom: 20px;
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    background-image: url(..//images/secGradient.jpg);
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 100%;
+                                                                                                                                                }
+                                                                                                                                                .blog {
+                                                                                                                                                    color: #1f2020d8;
+                                                                                                                                                    font-size: 45px;
+                                                                                                                                                }
+                                                                                                                                                .row6 {
+                                                                                                                                                    /* font-family: DXRigraf; */
+                                                                                                                                                    /* height: 400px; */
+                                                                                                                                                    padding-bottom: 20px;
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    background-image: url(..//images/IMG_2621.jpg);
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 100%;
+                                                                                                                                                }
+                                                                                                                                                .photos {
+                                                                                                                                                    border-radius: 16px;
+                                                                                                                                                    border: 1px solid rgba(255, 255, 255, 0.15);
+                                                                                                                                                }
+                                                                                                                                                .contImg {
+                                                                                                                                                    width: 50px;
+                                                                                                                                                    height: 50%;
+                                                                                                                                                    border-radius: 50%;
+                                                                                                                                                }
+                                                                                                                                                .spanCont {
+                                                                                                                                                    font-size: 18px;
+                                                                                                                                                    font-family: Neutralface;
+                                                                                                                                                    font-weight: bold;
+                                                                                                                                                    transition: all 0.2s linear;
+                                                                                                                                                }
+                                                                                                                                                .hovering {
+                                                                                                                                                    transition: all 0.2s linear;
+                                                                                                                                                }
+                                                                                                                                                .hovering:hover .spanCont {
+                                                                                                                                                    color: #09b9ae;
+                                                                                                                                                }
+                                                                                                                                            }
+                                                                                                                                            
+                                                                                                                                            @media all and ( min-width: 992px) {
+                                                                                                                                                .first-row {
+                                                                                                                                                    height: 650px;
+                                                                                                                                                    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../images/IMG_4272.JPG');
+                                                                                                                                                    /* background-image: url(../images/IMG_7174.JPG); */
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 50%;
+                                                                                                                                                    /* filter: brightness(70%); */
+                                                                                                                                                }
+                                                                                                                                                .hello {
+                                                                                                                                                    padding-top: 7rem;
+                                                                                                                                                    font-size: 80px;
+                                                                                                                                                    font-family: DXRigraf;
+                                                                                                                                                    font-weight: bolder;
+                                                                                                                                                    text-shadow: 5px 5px 7px #1e2222;
+                                                                                                                                                    filter: brightness(100%) !important;
+                                                                                                                                                    text-transform: uppercase;
+                                                                                                                                                    color: #131313d8;
+                                                                                                                                                    /*letter-spacing: 10px; */
+                                                                                                                                                }
+                                                                                                                                                .p-scroll {
+                                                                                                                                                    font-family: Dxrigraf;
+                                                                                                                                                    margin-top: -25px;
+                                                                                                                                                    transition: all 0.2s linear;
+                                                                                                                                                    text-decoration: none;
+                                                                                                                                                    color: black !important;
+                                                                                                                                                }
+                                                                                                                                                .p-scroll:hover {
+                                                                                                                                                    color: #00fded !important;
+                                                                                                                                                }
+                                                                                                                                                .AnbName {
+                                                                                                                                                    font-family: Abril;
+                                                                                                                                                    font-weight: bold;
+                                                                                                                                                    text-shadow: 5px 5px 7px #607274;
+                                                                                                                                                    font-size: 20px;
+                                                                                                                                                    padding-left: 200px;
+                                                                                                                                                    padding-top: 10px;
+                                                                                                                                                }
+                                                                                                                                                .row2 {
+                                                                                                                                                    margin-top: 10px;
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    height: 350px;
+                                                                                                                                                    background-image: url(..//images/fifth.jpg);
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 100%;
+                                                                                                                                                }
+                                                                                                                                                .cardWidth {
+                                                                                                                                                    width: 50%;
+                                                                                                                                                }
+                                                                                                                                                .card {
+                                                                                                                                                    /* margin-top: 20px; */
+                                                                                                                                                    width: 85%;
+                                                                                                                                                    /* height: 40%; */
+                                                                                                                                                    /* From https://css.glass */
+                                                                                                                                                    background: rgba(255, 255, 255, 0.21);
+                                                                                                                                                    border-radius: 16px;
+                                                                                                                                                    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                                                                                                                                                    backdrop-filter: blur(20px);
+                                                                                                                                                    -webkit-backdrop-filter: blur(20px);
+                                                                                                                                                    border: 1px solid rgba(255, 255, 255, 0.15);
+                                                                                                                                                    display: flex;
+                                                                                                                                                    /* justify-content: center; */
+                                                                                                                                                    align-items: center;
+                                                                                                                                                    text-align: justify;
+                                                                                                                                                    transition: all 0.1s linear;
+                                                                                                                                                }
+                                                                                                                                                .h2text {
+                                                                                                                                                    font-size: 30px;
+                                                                                                                                                }
+                                                                                                                                                .myName {
+                                                                                                                                                    font-family: Quentin !important;
+                                                                                                                                                    font-size: 20px;
+                                                                                                                                                }
+                                                                                                                                                .imgAbout {
+                                                                                                                                                    height: 310px !important;
+                                                                                                                                                    width: 310px !important;
+                                                                                                                                                }
+                                                                                                                                                .photoAbout {
+                                                                                                                                                    padding-left: 200px;
+                                                                                                                                                }
+                                                                                                                                                .row3 {
+                                                                                                                                                    /* font-family: DXRigraf; */
+                                                                                                                                                    padding-bottom: 20px;
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    background-image: url(..//images/firstGradient.jpg);
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 100%;
+                                                                                                                                                }
+                                                                                                                                                .research {
+                                                                                                                                                    font-size: 37px;
+                                                                                                                                                    color: #3f3737d8;
+                                                                                                                                                }
+                                                                                                                                                .row4 {
+                                                                                                                                                    /* font-family: DXRigraf; */
+                                                                                                                                                    height: 400px;
+                                                                                                                                                    padding-bottom: 20px;
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    background-image: url(..//images/thirdGradient.jpg);
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 100%;
+                                                                                                                                                }
+                                                                                                                                                .skills {
+                                                                                                                                                    font-size: 45px;
+                                                                                                                                                    color: rgba(255, 255, 255, 0.7);
+                                                                                                                                                }
+                                                                                                                                                .proBar {
+                                                                                                                                                    background-color: #215250;
+                                                                                                                                                }
+                                                                                                                                                .row5 {
+                                                                                                                                                    /* font-family: DXRigraf; */
+                                                                                                                                                    /* height: 400px; */
+                                                                                                                                                    padding-bottom: 20px;
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    background-image: url(..//images/secGradient.jpg);
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 100%;
+                                                                                                                                                }
+                                                                                                                                                .blog {
+                                                                                                                                                    color: #1f2020d8;
+                                                                                                                                                    font-size: 45px;
+                                                                                                                                                }
+                                                                                                                                                .row6 {
+                                                                                                                                                    /* font-family: DXRigraf; */
+                                                                                                                                                    /* height: 400px; */
+                                                                                                                                                    padding-bottom: 20px;
+                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                    background-image: url(..//images/IMG_2621.jpg);
+                                                                                                                                                    background-size: cover;
+                                                                                                                                                    background-position: 100%;
+                                                                                                                                                }
+                                                                                                                                                .photos {
+                                                                                                                                                    border-radius: 16px;
+                                                                                                                                                    border: 1px solid rgba(255, 255, 255, 0.15);
+                                                                                                                                                }
+                                                                                                                                                #photoCar {
+                                                                                                                                                    width: 65%;
+                                                                                                                                                }
+                                                                                                                                                .contImg {
+                                                                                                                                                    width: 50px;
+                                                                                                                                                    height: 50%;
+                                                                                                                                                    border-radius: 50%;
+                                                                                                                                                }
+                                                                                                                                                .spanCont {
+                                                                                                                                                    font-size: 18px;
+                                                                                                                                                    font-family: Neutralface;
+                                                                                                                                                    font-weight: bold;
+                                                                                                                                                    transition: all 0.2s linear;
+                                                                                                                                                }
+                                                                                                                                                .hovering {
+                                                                                                                                                    transition: all 0.2s linear;
+                                                                                                                                                }
+                                                                                                                                                .hovering:hover .spanCont {
+                                                                                                                                                    color: #09b9ae;
+                                                                                                                                                }
+                                                                                                                                                .labelMess {
+                                                                                                                                                    font-size: 17px;
+                                                                                                                                                }
+                                                                                                                                                .textArea {
+                                                                                                                                                    background-color: rgba(255, 255, 255, 0.199);
+                                                                                                                                                    border-radius: 16px;
+                                                                                                                                                    box-shadow: 0 7px 30px rgba(0, 0, 0, 0.1);
+                                                                                                                                                    backdrop-filter: blur(20px);
+                                                                                                                                                    -webkit-backdrop-filter: blur(20px);
+                                                                                                                                                    border: #0a0a0a 2px;
+                                                                                                                                                }
+                                                                                                                                                .contactMe {
+                                                                                                                                                    font-size: 40px;
+                                                                                                                                                    color: rgba(255, 255, 255, 0.603) !important;
+                                                                                                                                                }
+                                                                                                                                            }
